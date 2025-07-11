@@ -31,7 +31,7 @@ require(['vs/editor/editor.main'], function() {
         outputArea.textContent = '実行中...';
 
         try {
-            const response = await fetch('/run-code', {
+            const response = await fetch('/api/run-code', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
