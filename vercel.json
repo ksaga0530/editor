@@ -11,9 +11,5 @@
       "src": "/run-code",
       "dest": "server.js"
     },
-    {
-      "src": "/",
-      "dest": "public/index.html"
-    }
   ]
 }
